@@ -4,16 +4,16 @@
 
 ### MongoDB / Express / React / Node.js
 
-1. GET
-2. POST
-3. PUT
-4. DELETE
-
 ### REST API:
 #### api / puducts
 
 HTTP REQUEST /
 HTTP RESPONSE
+
+1. GET
+2. POST
+3. PUT
+4. DELETE
  
 ### SERVER:
 
