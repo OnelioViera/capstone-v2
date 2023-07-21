@@ -1,7 +1,8 @@
 # Capstone-v2
-### React / Redux / Bootstrap
 
 ![MERN](https://miro.medium.com/v2/0*hU4zJiyVwWcM0L-w.png)
+
+### React / Redux / Bootstrap
 
 1. GET
 2. POST
