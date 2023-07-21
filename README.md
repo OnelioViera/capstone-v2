@@ -9,15 +9,29 @@
 ### REST API:
 #### api / puducts
 
-HTTP REQUEST /
+Client:
+React
+Redux
+|
+GET
+POST
+PUT
+DELETE
+|
+REST API:
+/api/puducts
+|
+HTTP REQUEST
 HTTP RESPONSE
- 
-### Server:
+|
+Server:
+node.js
+express
+|
+Mongoose Query
+|
+mongoDB Atlas
 
-1. node.js
-1. express
-1. Mongoose Query
-1. mongoDB Atlas
 
 MongoDB
 
@@ -30,8 +44,3 @@ Bootstrap
 React
 
 Redux
-
-GitHub
-
-GitHub Copilot Chat
-
