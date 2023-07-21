@@ -38,14 +38,10 @@
 - PostMan
 - Bootstrap
 - React
+- VS Code
 - Redux
 - GitHub
 - GitHub Copilot Chat
-- VS Code
-- Heroku
-- Netlify
-- Postman
-- Google Chrome
 - Google Chrome Dev Tools
 - Google Chrome React Dev Tools
 
