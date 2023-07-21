@@ -1,7 +1,6 @@
 # Capstone-v2
 ### React / Redux
 
-<<<<<<< HEAD
 1. GET
 2. POST
 3. PUT
@@ -29,7 +28,6 @@ PostMan
 Bootstrap
 
 React
-<<<<<<< HEAD
 
 Redux
 
