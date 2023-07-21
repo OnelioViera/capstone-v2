@@ -1,32 +1,37 @@
-# capstone-v2
+# Capstone-v2
+### React / Redux
 
-Client:
-React
-Redux
-|
-GET
-POST
-PUT
-DELETE
-|
-REST API:
-/api/puducts
-|
-HTTP REQUEST
+1. GET
+2. POST
+3. PUT
+4. DELETE
+
+### REST API:
+#### api / puducts
+
+HTTP REQUEST /
 HTTP RESPONSE
-|
-Server:
-node.js
-express
-|
-Mongoose Query
-|
-mongoDB Atlas
+ 
+### Server:
 
+1. node.js
+1. express
+1. Mongoose Query
+1. mongoDB Atlas
 
 MongoDB
+
 Mongoose/Cumpass
+
 PostMan
+
 Bootstrap
+
 React
+
 Redux
+
+GitHub
+
+GitHub Copilot Chat
+
