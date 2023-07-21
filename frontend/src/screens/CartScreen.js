@@ -4,7 +4,7 @@ import { Row, Col, ListGoup, Image, Form, Button, Card } from 'react-bootstrap';
 import { FaTrash } from 'react-icons/fa';
 import Message from '../components/Message';
 
-const cartScreen = () => {
+const CartScreen = () => {
     const navigate = useNavigate();
     const dispatch = useDispatch();
     return (
