@@ -31,7 +31,7 @@
 11. colors
 
 
-### PROJECT SETUP:
+### PROJECT: Setup
 
 - MongoDB
 - Mongoose/Cumpass
