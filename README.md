@@ -7,15 +7,14 @@
 ### FRONTEND: Client
 
 1. React
-2. Redux
-3. React-Bootstrap
-4. Axios
-5. React-Router-Dom
-6. React-Redux
-8. Redux-Devtools-Extension
-9. Redux-Logger
-11. React-Scripts
-14. React-Icons
+2. React-Bootstrap
+3. React-Router-Dom
+4. React-Redux
+5. React-Scripts
+6. React-Icons
+7. Axios
+8. Redux
+9. Redux-Toolkit
 
 ### BACKEND: Server
 
