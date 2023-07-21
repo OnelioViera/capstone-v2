@@ -1,4 +1,4 @@
-# Capstone-v2 ProShop eCommerce Platform
+# Capstone-v2 (ProShop eCommerce Platform)
 
 ![MERN](https://miro.medium.com/v2/0*hU4zJiyVwWcM0L-w.png)
 
