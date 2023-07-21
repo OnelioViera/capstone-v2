@@ -20,12 +20,20 @@ HTTP RESPONSE
 1. mongoDB Atlas
 
 MongoDB
+
 Mongoose/Cumpass
+
 PostMan
+
 Bootstrap
+
 React
+
 Redux
+
 GitHub
+
 GitHub Copilot Chat
+
 Redux
 
