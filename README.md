@@ -23,24 +23,23 @@
 2. express
 3. Mongoose Query
 4. mongoDB Atlas
+5. bcryptjs
+6. dotenv
+8. express-async-handler
+9. nodemon
+10. concurrently
+11. colors
+
 
 ### PROJECT SETUP:
 
 - MongoDB
-
 - Mongoose/Cumpass
-
 - PostMan
-
 - Bootstrap
-
 - React
-
 - Redux
-
 - GitHub
-
 - GitHub Copilot Chat
-
 - Redux
 
