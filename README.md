@@ -1,5 +1,5 @@
 # Capstone-v2
-### React / Redux
+### React / Redux / Bootstrap
 
 1. GET
 2. POST
