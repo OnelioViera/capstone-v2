@@ -2,7 +2,7 @@
 
 ![MERN](https://miro.medium.com/v2/0*hU4zJiyVwWcM0L-w.png)
 
-### React / Redux / Bootstrap
+### MongoDB / Express / React / Node.js
 
 1. GET
 2. POST
