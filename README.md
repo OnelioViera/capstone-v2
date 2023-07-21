@@ -24,21 +24,21 @@ HTTP RESPONSE
 
 ### PROJECT SETUP:
 
-MongoDB
+- MongoDB
 
-Mongoose/Cumpass
+- Mongoose/Cumpass
 
-PostMan
+- PostMan
 
-Bootstrap
+- Bootstrap
 
-React
+- React
 
-Redux
+- Redux
 
-GitHub
+- GitHub
 
-GitHub Copilot Chat
+- GitHub Copilot Chat
 
-Redux
+- Redux
 
