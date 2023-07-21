@@ -41,5 +41,12 @@
 - Redux
 - GitHub
 - GitHub Copilot Chat
-- Redux
+- VS Code
+- Heroku
+- Netlify
+- Postman
+- Google Chrome
+- Google Chrome Dev Tools
+- Google Chrome React Dev Tools
+
 
