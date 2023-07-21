@@ -32,8 +32,6 @@ React
 Redux
 
 GitHub
-
 GitHub Copilot Chat
-
 Redux
 
