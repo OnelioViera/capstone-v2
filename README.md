@@ -4,23 +4,25 @@
 
 ## MongoDB / Express / React / Node.js
 
-### REST API:
-#### api / puducts
+### FRONTEND: Client
 
-HTTP REQUEST /
-HTTP RESPONSE
+1. React
+2. Redux
+3. React-Bootstrap
+4. Axios
+5. React-Router-Dom
+6. React-Redux
+8. Redux-Devtools-Extension
+9. Redux-Logger
+11. React-Scripts
+14. React-Icons
 
-1. GET
-2. POST
-3. PUT
-4. DELETE
- 
-### SERVER:
+### BACKEND: Server
 
 1. node.js
-1. express
-1. Mongoose Query
-1. mongoDB Atlas
+2. express
+3. Mongoose Query
+4. mongoDB Atlas
 
 ### PROJECT SETUP:
 
