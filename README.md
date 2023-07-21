@@ -10,7 +10,7 @@ PUT
 DELETE
 |
 REST API:
-/api/puducts
+/API/puducts
 |
 HTTP REQUEST
 HTTP RESPONSE
@@ -21,7 +21,7 @@ express
 |
 Mongoose Query
 |
-mongoDB Atlas
+MongoDB Atlas
 
 
 MongoDB
