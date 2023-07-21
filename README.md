@@ -22,6 +22,8 @@ HTTP RESPONSE
 1. Mongoose Query
 1. mongoDB Atlas
 
+### PROJECT SETUP:
+
 MongoDB
 
 Mongoose/Cumpass
