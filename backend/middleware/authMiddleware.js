@@ -6,13 +6,13 @@ import User from '../models/userModel.js';
 const protect = asyncHandler(async (req, res, next) => {
     let token;
 
-    // Read the token from the cookie
+    // Read the JWT from the cookie
     token = req.cookies.jwt;
 
     if (token) {
         try {
             const decoded = jwt.verify(token, process.env.JWT_SECRET);
-            req.user = await User.findById(decoded.userID).select('-password');
+            req.user = await User.findById(decoded.userId).select('-password');
             next();
         } catch (error) {
             console.error(error);
@@ -25,7 +25,7 @@ const protect = asyncHandler(async (req, res, next) => {
     }
 });
 
-// Asmin middleware
+// Admin middleware
 const admin = (req, res, next) => { 
     if (req.user && req.user.isAdmin) {
         next();
