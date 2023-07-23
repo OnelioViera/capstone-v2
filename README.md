@@ -23,7 +23,8 @@
 3. Mongoose Query
 4. mongoDB Atlas
 5. bcryptjs
-6. dotenv
+6. jsonwebtoken
+7. dotenv
 8. express-async-handler
 9. nodemon
 10. concurrently
