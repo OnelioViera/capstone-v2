@@ -50,7 +50,7 @@ const RegisterScreen = () => {
 
   return (
     <FormContainer>
-      <h1 className='mt-5'>Register</h1>
+      <h1 className='mt-5'>Sign Up</h1>
 
       <Form onSubmit={submitHandler}>
 

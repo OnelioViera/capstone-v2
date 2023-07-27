@@ -53,7 +53,7 @@ const PlaceOrderScreen = () => {
               <h2>Shipping</h2>
               <p>
                 <strong>Address: </strong> 
-                {cart.shippingAddress.address}, {cart.shippingAddress.city}, {cart.shippingAddress.postalCode}, {cart.shippingAddress.country}
+                {cart.shippingAddress.address}, {cart.shippingAddress.city} {cart.shippingAddress.postalCode}, {' '} {cart.shippingAddress.country}
               </p>
             </ListGroup.Item>
             <ListGroup.Item>
@@ -120,16 +120,15 @@ const PlaceOrderScreen = () => {
                   </Row>
               </ListGroup.Item>
               <ListGroup.Item>
-                {error && <Message variant="danger">{error}</Message>}
-              </ListGroup.Item>      
+              </ListGroup.Item>
+                { error && <Message variant="danger">{error}</Message>}
               <ListGroup.Item>
-                <Button 
+                <Button
                   type="button"
                   className="btn-block"
-                  disabled={cart.cartItems === 0}
-                  onClick={placeOrderHandler}>
-                    Place Order
-                    </Button>
+                  disabled={cart.cartItems.length === 0}
+                  onClick={placeOrderHandler}
+                >Place Order</Button>
                     {isLoading && <Loader />}
               </ListGroup.Item>
             </ListGroup>
