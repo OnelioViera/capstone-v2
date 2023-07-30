@@ -1,0 +1,202 @@
+[{
+  "_id": {
+    "$oid": "64c2eed778f82ccba1434f2f"
+  },
+  "user": {
+    "$oid": "64c2ee4e78f82ccba1434f28"
+  },
+  "orderItems": [
+    {
+      "name": "Airpods Wireless Bluetooth Headphones",
+      "qty": 2,
+      "image": "/images/airpods.jpg",
+      "price": 89.99,
+      "product": {
+        "$oid": "64b9e5629f0159deb9acdb17"
+      },
+      "_id": {
+        "$oid": "64c2eed778f82ccba1434f30"
+      }
+    },
+    {
+      "name": "iPhone 11 Pro 256GB Memory",
+      "qty": 1,
+      "image": "/images/phone.jpg",
+      "price": 599.99,
+      "product": {
+        "$oid": "64b9e5629f0159deb9acdb18"
+      },
+      "_id": {
+        "$oid": "64c2eed778f82ccba1434f31"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "20 Main st",
+    "city": "Boston",
+    "postalCode": "01012",
+    "country": "USA"
+  },
+  "paymentMethod": "PayPal",
+  "itemPrice": 0,
+  "taxPrice": 117,
+  "shippingPrice": 0,
+  "totalPrice": 896.97,
+  "isPaid": false,
+  "isDelivered": false,
+  "createdAt": {
+    "$date": "2023-07-27T22:25:27.691Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-27T22:25:27.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c3a210b26cc933ff79219b"
+  },
+  "user": {
+    "$oid": "64b9e5629f0159deb9acdb14"
+  },
+  "orderItems": [
+    {
+      "name": "Airpods Wireless Bluetooth Headphones",
+      "qty": 1,
+      "image": "/images/airpods.jpg",
+      "price": 89.99,
+      "product": {
+        "$oid": "64b9e5629f0159deb9acdb17"
+      },
+      "_id": {
+        "$oid": "64c3a210b26cc933ff79219c"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "20 Main st",
+    "city": "Boston",
+    "postalCode": "01012",
+    "country": "USA"
+  },
+  "paymentMethod": "PayPal",
+  "itemPrice": 0,
+  "taxPrice": 13.5,
+  "shippingPrice": 10,
+  "totalPrice": 113.49,
+  "isPaid": true,
+  "isDelivered": false,
+  "createdAt": {
+    "$date": "2023-07-28T11:10:08.550Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-28T11:10:18.852Z"
+  },
+  "__v": 0,
+  "paidAt": {
+    "$date": "2023-07-28T11:10:18.851Z"
+  },
+  "paymentResult": {}
+},
+{
+  "_id": {
+    "$oid": "64c3a2d6b26cc933ff7921ad"
+  },
+  "user": {
+    "$oid": "64b9e5629f0159deb9acdb14"
+  },
+  "orderItems": [
+    {
+      "name": "Airpods Wireless Bluetooth Headphones",
+      "qty": 1,
+      "image": "/images/airpods.jpg",
+      "price": 89.99,
+      "product": {
+        "$oid": "64b9e5629f0159deb9acdb17"
+      },
+      "_id": {
+        "$oid": "64c3a2d6b26cc933ff7921ae"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "20 Main st",
+    "city": "Boston",
+    "postalCode": "01012",
+    "country": "USA"
+  },
+  "paymentMethod": "PayPal",
+  "itemPrice": 0,
+  "taxPrice": 13.5,
+  "shippingPrice": 10,
+  "totalPrice": 113.49,
+  "isPaid": true,
+  "isDelivered": false,
+  "createdAt": {
+    "$date": "2023-07-28T11:13:26.735Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-28T11:13:49.656Z"
+  },
+  "__v": 0,
+  "paidAt": {
+    "$date": "2023-07-28T11:13:49.655Z"
+  },
+  "paymentResult": {
+    "id": "7YG06376RK293803C",
+    "status": "COMPLETED",
+    "update_time": "2023-07-28T11:13:45Z",
+    "email_address": "sb-fqrat26911335@personal.example.com"
+  }
+},
+{
+  "_id": {
+    "$oid": "64c3a339b26cc933ff7921c2"
+  },
+  "user": {
+    "$oid": "64b9e5629f0159deb9acdb14"
+  },
+  "orderItems": [
+    {
+      "name": "Airpods Wireless Bluetooth Headphones",
+      "qty": 1,
+      "image": "/images/airpods.jpg",
+      "price": 89.99,
+      "product": {
+        "$oid": "64b9e5629f0159deb9acdb17"
+      },
+      "_id": {
+        "$oid": "64c3a339b26cc933ff7921c3"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "20 Main st",
+    "city": "Boston",
+    "postalCode": "01012",
+    "country": "USA"
+  },
+  "paymentMethod": "PayPal",
+  "itemPrice": 0,
+  "taxPrice": 13.5,
+  "shippingPrice": 10,
+  "totalPrice": 113.49,
+  "isPaid": true,
+  "isDelivered": false,
+  "createdAt": {
+    "$date": "2023-07-28T11:15:05.679Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-28T11:15:21.767Z"
+  },
+  "__v": 0,
+  "paidAt": {
+    "$date": "2023-07-28T11:15:21.766Z"
+  },
+  "paymentResult": {
+    "id": "0XW17809514846706",
+    "status": "COMPLETED",
+    "update_time": "2023-07-28T11:15:17Z",
+    "email_address": "sb-fqrat26911335@personal.example.com"
+  }
+}]
