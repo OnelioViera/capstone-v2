@@ -3,6 +3,8 @@
         "github.copilot-chat",
         "github.copilot",
         "mikestead.dotenv",
-        "sirtori.indenticator"
+        "sirtori.indenticator",
+        "rodrigovallades.es7-react-js-snippets",
+        "esbenp.prettier-vscode"
     ]
 }
