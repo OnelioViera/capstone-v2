@@ -28,14 +28,14 @@
 5. **Question: How will you handle online payments securely?**
    - Response: We will integrate a secure payment gateway (e.g., Stripe) to handle online payments. Customers can use credit/debit cards or digital wallets for transactions.
 
-6. **Question: How will you manage user reviews and ratings for electronics products?**
-   - Response: Users will be able to submit reviews and ratings for electronics products. This data will be stored in the database and displayed on the product pages to assist other customers in making informed decisions.
+6. **Question: How will you manage user reviews and ratings for electronic products?**
+   - Response: Users will be able to submit reviews and ratings for electronic products. This data will be stored in the database and displayed on the product pages to assist other customers in making informed decisions.
 
-7. **Question: How will you implement the search functionality for electronics products?**
-   - Response: We will use MongoDB's text search capabilities for basic search requirements, allowing users to search for electronics products based on keywords. For more advanced search features, we may consider integrating a third-party search solution like Elasticsearch.
+7. **Question: How will you implement the search functionality for electronic products?**
+   - Response: We will use MongoDB's text search capabilities for basic search requirements, allowing users to search for electronic products based on keywords. 
 
 8. **Question: How will the admin dashboard work for managing electronics products and orders?**
-   - Response: The admin dashboard will require secure login access and will provide authorized administrators with the ability to manage electronics products (add, update, delete) and process orders. It will also feature sales analytics and user management capabilities.
+   - Response: The admin dashboard will require secure login access and will allow authorized administrators to manage electronics products (add, update, delete) and process orders. It will also feature sales analytics and user management capabilities.
 
 Remember that these responses are general guidelines and that specific implementation details may vary depending on the project's requirements and business goals. The MERN stack will serve as the foundation for developing a fully functional and efficient e-commerce website for electronics.
 
