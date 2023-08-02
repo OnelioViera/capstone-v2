@@ -95,7 +95,7 @@ const updateOrderToPaid = asyncHandler(async (req, res) => {
 const updateOrderToDelivered = asyncHandler(async (req, res) => {
   const order = await Order.findById(req.params.id);
 
-  if(order) {
+  if (order) {
     order.isDelivered = true;
     order.deliveredAt = Date.now();
 

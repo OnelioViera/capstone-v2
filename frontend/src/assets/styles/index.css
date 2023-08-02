@@ -3,6 +3,10 @@ main {
   min-height: 80vh;
 }
 
+.order-title {
+  font-size: 30px;
+}
+
 .rating span {
   margin: 0.1rem;
 }

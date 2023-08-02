@@ -5,7 +5,6 @@ import {
   Col,
   ListGroup,
   Image,
-  Form,
   Card,
   Button,
   ListGroupItem,
@@ -75,14 +74,16 @@ const OrderScreen = () => {
 
     });
   }
+  // eslint-disable-next-line
   async function onApproveTest() {
     await payOrder({ orderId, details: { payer: {}} });
         refetch();
-        toast.success('Order has been paid');
+        toast.success('Payment successful');
   }
   function onError(err) {
     toast.error(err.message);
   }
+  
   function createOrder(data, actions) {
     return actions.order.create({
       purchase_units: [
@@ -110,7 +111,7 @@ const OrderScreen = () => {
   return isLoading ? <Loader /> : error ? <Message variant='danger' />
     : (
       <>
-        <h1>Order {order._id}</h1>
+        <h1 className='order-title'>Order {order._id}</h1>
         <Row>
           <Col md={8}>
             <ListGroup variant='flush'>
@@ -196,7 +197,7 @@ const OrderScreen = () => {
                   <ListGroupItem>
                     {loadingPay && <Loader />}
                     {isPending ? <Loader /> : (
-                      <div>
+                      
                         <div>
                           <PayPalButtons
                             createOrder={createOrder}
@@ -204,7 +205,7 @@ const OrderScreen = () => {
                             onError={onError}
                             ></PayPalButtons>
                         </div>
-                      </div>
+                      
                     )}
                   </ListGroupItem>
                 )}
