@@ -1,0 +1,58 @@
+frontend
+|
+node_modules
+|
+public: index.html
+|	|
+|	images:
+|
+src: assets
+|	|
+|	styles
+|
+components: AdminRoute.jsx
+|	    CheckoutSteps.jsx
+|	    Footer.jsx
+|	    FormContainer.jsx
+|	    Header.jsx
+|	    Loader.jsx
+|	    Message.jsx
+|	    PrivateRoute.jsx
+|	    Product.jsx
+|	    Rating.jsx
+|
+screens: 	
+|   
+|-------admin: OrderListScreen.jsx
+|    
+|------	CartScreen.jsx
+|	HomeScreen.jsx
+|	LoginScreen.jsx
+|	OrderScreen.jsx
+|	PaymentScreen.jsx
+|	PlaceOrderScreen.jsx
+|	ProductScreen.jsx
+|	ProfileScreen.jsx
+|	RegisterScreen.jsx
+|	ShippingScreen.jsx
+|	SocialLogin.jsx
+|
+slices: apiSLice.js
+|	authSlice.js
+|	cartSlice.js
+|	ordersApiSlice.js
+|	productsApiSlice.js
+|	userApiSlice.js
+|
+utils: cartUtils.js	
+|			
+App.js
+constants.js
+index.js
+reportWebVitals.js	
+setupTests.js
+store.js
+.env
+example.env
+README.md
+.gitignore
