@@ -64,7 +64,6 @@ const UserEditScreen = () => {
                 placeholder='Enter name'
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                required
               ></Form.Control>
             </Form.Group>
 
@@ -75,7 +74,6 @@ const UserEditScreen = () => {
                 placeholder='Enter email'
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                required
               ></Form.Control>
             </Form.Group>
 
