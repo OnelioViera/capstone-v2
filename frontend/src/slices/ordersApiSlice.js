@@ -16,19 +16,7 @@ export const ordersApiSlice = apiSlice.injectEndpoints({
       }),
       keepUnusedDataFor: 5,
     }),
-    payOrder: builder.mutation({
-      query: ({ orderId, details }) => ({
-        url: `${ORDERS_URL}/${orderId}/pay`,
-        method: 'PUT',
-        body: { ...details },
-      }),
-    }),
-    getPayPalClientId: builder.query({
-      query: () => ({
-        url: PAYPAL_URL,
-      }),
-      keepUnusedDataFor: 5,
-    }),
+    // Removed duplicate keys: payOrder and getPayPalClientId
     payOrder: builder.mutation({
       query: ({ orderId, details }) => ({
         url: `${ORDERS_URL}/${orderId}/pay`,
@@ -63,6 +51,7 @@ export const ordersApiSlice = apiSlice.injectEndpoints({
   }),
 });
 
+// Export hooks for using the endpoints
 export const {
   useCreateOrderMutation,
   useGetOrderDetailsQuery,
