@@ -6,7 +6,6 @@ import Loader from '../../components/Loader';
 import FormContainer from '../../components/FormContainer';
 import { toast } from 'react-toastify';
 import { useUpdateProductMutation , useGetProductDetailsQuery, useUploadProductImageMutation } from '../../slices/productsApiSlice';
-import { unwrapResult } from '@reduxjs/toolkit';
 
 
 const ProductEditScreen = () => {
@@ -120,6 +119,7 @@ const upLoadFileHandler = async (e) => {
               label='Choose File'
               onChange={upLoadFileHandler}>
             </Form.Control>
+            {loadingUpload && <Loader />}
 
             <Form.Group controlId='brand' className='my-2'>
               <Form.Label className='mt-2'>Brand</Form.Label>
